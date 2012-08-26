@@ -100,7 +100,7 @@
   }
 
   function clearMenus() {
-    $(toggle).closest('.dropdown').removeClass('open');
+    $(toggle).closest('.open').removeClass('open');
   }
 
   function getParent($this) {
